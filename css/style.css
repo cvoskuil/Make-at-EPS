@@ -1,67 +1,56 @@
-html
-{
-	height:90%;
-}
 body
 {
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Orbitron', sans-serif !important;
 	text-align:center;
 	color:green;
-	background-color:lightgrey;
-	height:100%;
+	background-color:lightgrey !important;
 }
-#mainNav
+nav
 {
-	width:90%;
-	margin:0 auto;
-	margin-top:20px;
-}
-#mainNav a
-{
-	text-decoration:none;
-	color:inherit;
-	text-align:center;
-	padding-left:30px;
+	
 }
 #wrapper
 {
 	margin:0 auto;
 	background-image:url(../images/desert.jpg);
 	width:80%;
-	height:80%;
 	padding:20px;
 	margin-top:20px;
 }
-#wrapper h3
+.printerImg:hover
 {
-	margin-top:50px;
+	width:220px;
 }
-#makerbot2Img
+.printerImg:active
 {
-	width:80%;
-	margin:0 auto;
-}
-#makerbot2Img:hover
-{
-	width:100%;
-}
-#makerbot2Img:active
-{
-	width:90%;
+	width:210px;
 }
 .printerImg
 {
-	border:solid;
-	width:300px;
-	height:300px;
-	overflow:hidden;
+	width:200px;
 	float:left;
-	margin:0 auto;
+	margin-left:100px;
 }
 #printerImgWrapper
 {
 	float:left;
 	width:100%;
+	margin:0 auto;
+}
+h3
+{
+	position:absolute;
+	bottom:0px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.instructionsBox
+{
+	background-color:lightgrey;
 	border:solid;
+	width:200px;
+	padding:10px;
 	margin:0 auto;
 }
