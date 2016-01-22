@@ -2,17 +2,13 @@ body
 {
 	font-family: 'Orbitron', sans-serif !important;
 	text-align:center;
-	color:green;
+	color:green !important;
 	background-color:lightgrey !important;
-}
-nav
-{
-	
 }
 #wrapper
 {
 	margin:0 auto;
-	background-image:url(../images/desert.jpg);
+	background-color:#8f8f8f;
 	width:80%;
 	padding:20px;
 	margin-top:20px;
