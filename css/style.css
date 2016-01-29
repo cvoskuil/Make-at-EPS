@@ -27,6 +27,14 @@ h1
 	padding:30px;
 	padding-top:0px;
 }
+.printerImg:hover
+{
+	width:320px;
+}
+.printerImg:active
+{
+	width:310px;
+}
 #printerImgTable
 {
 	margin:0 auto;
@@ -45,7 +53,7 @@ h3
 	max-width:300px;
 	padding:10px;
 	margin:10px;
-	overflow:hidden;
+	height:95px;
 }
 .instructionsTable
 {
@@ -58,6 +66,10 @@ h3
 .staffTable
 {
 	margin:0 auto;
+}
+.staffTable tr td
+{
+	font-size:20px;
 }
 .staffImg
 {
